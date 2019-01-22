@@ -1,0 +1,514 @@
+[
+  {
+    "description": "\tAs Autokin developer\n\tI want to verify that all API are working as they should",
+    "keyword": "Feature",
+    "name": "Delete",
+    "line": 2,
+    "id": "delete",
+    "tags": [
+      {
+        "name": "@autokin",
+        "line": 1
+      }
+    ],
+    "uri": "features\\delete.feature",
+    "elements": [
+      {
+        "id": "delete;my-3rd-scenario",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "My 3rd Scenario",
+        "tags": [
+          {
+            "name": "@autokin",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:15"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "that a secure endpoint is up at jsonplaceholder.typicode.com",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I perform DELETE to /posts/1",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1080000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "response status code should be 200",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "\tAs Autokin developer\n\tI want to verify that all API are working as they should",
+    "keyword": "Feature",
+    "name": "Get Method My feature",
+    "line": 2,
+    "id": "get-method-my-feature",
+    "tags": [
+      {
+        "name": "@autokin",
+        "line": 1
+      }
+    ],
+    "uri": "features\\first.feature",
+    "elements": [
+      {
+        "id": "get-method-my-feature;my-1st-scenario",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "My 1st Scenario",
+        "tags": [
+          {
+            "name": "@autokin",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:15"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "that a secure endpoint is up at jsonplaceholder.typicode.com",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I GET /posts?userId=1",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 656000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "response status code should be 200",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "\tAs Autokin developer\n\tI want to verify that all API are working as they should",
+    "keyword": "Feature",
+    "name": "Patch Method",
+    "line": 2,
+    "id": "patch-method",
+    "tags": [
+      {
+        "name": "@autokin",
+        "line": 1
+      }
+    ],
+    "uri": "features\\patchmethod.feature",
+    "elements": [
+      {
+        "id": "patch-method;my-6th-scenario",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "My 6th Scenario",
+        "tags": [
+          {
+            "name": "@autokin",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:15"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "that a secure endpoint is up at jsonplaceholder.typicode.com",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I set Content-Type header to application/json",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I PATCH to /posts/1",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:120"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 819000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "response status code should be 200",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:129"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "\tAs Autokin developer\n\tI want to verify that all API are working as they should",
+    "keyword": "Feature",
+    "name": "Post Method",
+    "line": 2,
+    "id": "post-method",
+    "tags": [
+      {
+        "name": "@autokin",
+        "line": 1
+      }
+    ],
+    "uri": "features\\postmethod.feature",
+    "elements": [
+      {
+        "id": "post-method;my-4th-scenario",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "My 4th Scenario",
+        "tags": [
+          {
+            "name": "@autokin",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:15"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "that a secure endpoint is up at jsonplaceholder.typicode.com",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I set Content-Type header to application/json",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I POST to /posts",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 811000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "response status code should be 201",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:129"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "\tAs Autokin developer\n\tI want to verify that all API are working as they should",
+    "keyword": "Feature",
+    "name": "Put Method",
+    "line": 2,
+    "id": "put-method",
+    "tags": [
+      {
+        "name": "@autokin",
+        "line": 1
+      }
+    ],
+    "uri": "features\\putmethod.feature",
+    "elements": [
+      {
+        "id": "put-method;my-5th-scenario",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "My 5th Scenario",
+        "tags": [
+          {
+            "name": "@autokin",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:15"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "that a secure endpoint is up at jsonplaceholder.typicode.com",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I set Content-Type header to application/json",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I PUT to /posts/1",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 828000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "response status code should be 200",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "\tAs Autokin developer\n\tI want to verify that all API are working as they should",
+    "keyword": "Feature",
+    "name": "Get Method",
+    "line": 2,
+    "id": "get-method",
+    "tags": [
+      {
+        "name": "@autokin",
+        "line": 1
+      }
+    ],
+    "uri": "features\\sign.feature",
+    "elements": [
+      {
+        "id": "get-method;my-2nd-scenario",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "My 2nd Scenario",
+        "tags": [
+          {
+            "name": "@autokin",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "that a secure endpoint is up at jsonplaceholder.typicode.com",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I GET /posts?userId=1",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 660000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "response status code should be 200",
+            "match": {
+              "location": "node_modules\\autokin\\lib\\autokin-rest-steps.js:129"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
